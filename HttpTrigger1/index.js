@@ -3,7 +3,7 @@ module.exports = async function (context, req) {
 
     const name = (req.query.name || (req.body && req.body.name));
     const responseMessage = name
-        ? "Hello yqycicd!, " + name + ". This HTTP triggered function executed successfully."
+        ? "Hello　二つ目yqycicd!, " + name + ". This HTTP triggered function executed successfully."
         : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
     context.res = {
